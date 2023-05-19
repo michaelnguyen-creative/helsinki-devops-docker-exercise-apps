@@ -1,4 +1,4 @@
-name: Deploy container image for express app
+name: Deploy container image
 
 on:
   push:
