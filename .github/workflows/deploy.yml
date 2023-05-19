@@ -21,4 +21,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: helsinki-devops-docker/express-app:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devopsdockeruh-express-app:latest
